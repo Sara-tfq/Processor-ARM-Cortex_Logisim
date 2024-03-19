@@ -1,34 +1,35 @@
-# Projet PARM SI3
+# Project PARM 
 
-Voir la documentation en PDF dans le dossier `doc`.
+See the documentation in PDF format in the `doc` folder.
 
-## En-têtes C
+## C Headers
 
-| Programme | Description |
+| Program | Description |
 |-|-|
-| crypto | Cryptographie |
-| fixed | Nombres décimaux à virgule fixe |
-| math | Outils mathématiques |
-| parm | En-tête principale |
-| stdio | Entrées/sorties textuelles (clavier, terminal) |
-| string | Implémentation basique de chaînes |
-| string2 | Autre implémentation basique de chaînes |
-| trigo | Fonctions trigonométriques (séries de Taylor) |
-| utils | Outils de débogage |
-| video | Écran matriciel |
+| crypto | Cryptography |
+| fixed | Fixed-point decimal numbers |
+| math | Mathematical tools |
+| parm | Main header |
+| stdio | Text input/output (keyboard, terminal) |
+| string | Basic string implementation |
+| string2 | Another basic string implementation |
+| trigo | Trigonometric functions (Taylor series) |
+| utils | Debugging tools |
+| video | Matrix screen |
 
-## Programmes fournis en exemple
+## Example Programs Provided
 
-### Programmes C
+### C Programs
 
-| Programme | Description |
+| Program | Description |
 |-|-|
-| calckeyb		| Calculatrice avec clavier et terminal                                                    |
-| calculator	| Calculatrice avec DIP-switches                                                           |
-| simple_add | Effectue l'addition de deux variables et l'affiche dans RES
-| testfp		| Démonstration des macros de nombres à virgule fixe                                       |
-| tty			| Affiche "Projet PARM" dans le terminal                                                     |
+| calckeyb | Calculator with keyboard and terminal |
+| calculator | Calculator with DIP-switches |
+| simple_add | Adds two variables and displays the result in RES |
+| testfp | Demonstrates fixed-point number macros |
+| tty | Displays "Project PARM" in the terminal |
 
 ## MMIO
 
-Voir `parm.h` pour la documentation technique des broches.
+Refer to `parm.h` for technical documentation on pins.
+
